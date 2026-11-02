@@ -1,0 +1,798 @@
+@import url('https://fonts.googleapis.com/css2?family=Alan:wght@300;400;600;700&family=Cinzel+Decorative:wght@400;700;900&display=swap');
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+html,body {
+ width: 100%; 
+ overflow-x: hidden;
+ font-family: 'Alan Sans';
+ background-color: #ffffff;
+ color: #4a483d;
+}
+
+main{
+  max-width: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.top-bar {
+ background-color: #a85d6d;
+ color: #111111;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ width: 100%;
+ padding: 45px 40px;
+ font-size: 22px;
+ letter-spacing: 2px;
+}
+
+.top-bar .nome {
+ font-family: 'Cinzel';
+ font-size: 22px;
+ font-weight: 300;
+ color: #111111;
+ margin-left: 80px;
+ text-align: left;
+}
+
+.top-bar .data {
+  font-family: 'Cinzel'; 
+  font-size: 22px;
+  font-weight: 300;
+  color: #111111;
+  margin-right: 80px;
+  text-align: right;
+}
+
+.immagine.banner img {
+  width: 100%;
+ object-fit: cover;
+ display: block;
+}
+
+.cielo-sopra img{
+  height: 450px;
+}
+
+.cielo-sotto img {
+  height: 200px;
+}
+
+.main.header {
+  background-color: #ffffff;
+  font-family: 'Cinzel Decorative';
+  text-align: left;
+  padding: 10px 80px;
+ width: 100%;
+}
+
+.main.header h1 {
+ font-size: 60px;
+  color: #4a483d;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.container {
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  padding: 120px 20px;
+}
+
+.banner.blu {
+ background-color: #cfe1f1;
+  width: max-content;
+  padding: 80px 40px;
+  margin: 0 auto;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.banner.blu .sottotitolo {
+  font-size: 27px;
+  font-family: 'Cinzel';
+  color: #000000;
+ font-weight: 100;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  white-space: nowrap;
+ letter-spacing: 1px;
+  padding-top: 0;
+}
+
+.banner.blu .didascalia {
+  font-size: 20px;
+  font-weight: 100;
+  font-family: 'Cinzel';
+  color: #000000;
+  line-height: 1.5;
+  padding-bottom: 0;
+  text-transform: uppercase;
+
+}
+
+.sfondo-grigio {
+  background-color: #e8e8e8;
+  width: 100%;               
+  min-height: 970px;         
+  padding: 50px 0px;        
+  box-sizing: border-box;
+}
+
+.banner-rosa {
+  background-color: #d7c4c8; 
+  padding: 20px 30px;
+  margin-bottom: 30px;
+  margin: 0 auto 40px auto;   
+  width: 1200px;
+  box-sizing: border-box;
+}
+
+.banner-rosa h2 {
+  font-family: 'Cinzel Decorative';
+  font-size: 35px;            
+  letter-spacing: 2px;
+  color: #4a483d;
+  margin: 0;
+  width: 765px;
+}
+
+.testo-articolo {
+  width: 1255px;
+  padding-left: 30px;
+  margin: 0 auto 50px auto;
+  box-sizing: border-box; 
+}
+
+.testo-articolo p {
+  font-family: 'Alan Sans';  
+  font-weight: 500;
+  font-size: 20px;            
+  line-height: 26px;          
+  color: #000000;
+  width: 1200px;
+  margin: 0;
+  margin-bottom: 160px;
+}
+
+.immagini-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-left: px;
+}
+
+.immagini-1 img {
+  width: 398px;
+  height: 303px;     
+  object-fit: cover; 
+  display: block;
+}
+
+.sfondo.bianco {
+  background-color: #ffffff;
+  width: 100%;               
+  min-height: 970px;         
+  padding: 50px 0px;        
+  box-sizing: border-box;
+}
+
+.banner.azzurro {
+  background-color: #cfe1f1;
+  padding: 20px 30px;
+  margin-bottom: 30px;
+  margin: 0 auto 40px auto;   
+  width: 1250px;
+  box-sizing: border-box;
+}
+
+.banner.azzurro h2 {
+  font-family: 'Cinzel Decorative';
+  font-size: 35px;            
+  letter-spacing: 2px;
+  color: #4a483d;
+  margin: 0;
+  width: 765px;
+  white-space: nowrap;
+}
+
+.gruppo-immagini {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  gap: 347px;
+  margin-bottom: 150px;
+  margin-top: 70px;
+  width: 1200px;
+  min-height: 200px;
+  margin-left: 115px;
+}
+
+.coppia-sinistra,
+.coppia-destra {
+  display: flex;
+  gap: 0; 
+}
+
+.gruppo-immagini img {
+  width: 213px;
+  height: 198px;
+  object-fit: cover; 
+  display: block;
+}
+
+.contenuto-testo {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contenuto-testo .testo {
+  font-family: 'Alan Sans';
+  font-size: 20px;
+  color: #2c2c2c;
+  line-height: 26px;
+}
+
+.sfondo.grigio {
+  background-color: #e8e8e8; 
+  width: 100%;               
+  min-height: 970px;         
+  padding: 60px 50px;        
+  box-sizing: border-box;
+  }
+
+ .sfondo.grigio .banner.rosa {
+  background-color: #D7C4C8; 
+  padding: 20px 30px;
+  margin: 0 auto 40px auto;   
+  width: 1200px;
+  max-width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  
+}
+
+.sfondo.grigio .banner.rosa h2 {
+  font-family: 'Cinzel Decorative';
+  font-size: 35px;            
+  letter-spacing: 2px;
+  color: #4a483d;
+  margin: 0;
+  width: 765px;
+  white-space: nowrap;
+  margin-left: -50px;
+}
+
+.sfondo.grigio .testo-articolo {
+ max-width: 800px;
+ margin:  auto;
+}
+
+.sfondo.grigio .testo-articolo p {
+ font-family: 'Alan Sans';
+  font-size: 20px;
+  color: #2c2c2c;
+  line-height: 26px;
+  max-width: 800px;
+  margin-left: -35px;
+}
+
+.sfondo.grigio .immagini {
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;               
+  margin-top: 40px;
+  width: 1200px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sfondo.grigio .immagini img {
+  width: 380px;            
+  height: 220px;
+  object-fit: cover;       
+  display: block;
+  border-radius: 2px;
+}
+
+.sfondo.bianco {
+  background-color: #ffffff;
+  width: 100%;            
+  padding: 50px 50px 0 50px; 
+  box-sizing: border-box;
+}
+
+.sfondo.bianco .banner.azzurro {
+  background-color: #cfe1f1;
+  padding: 20px 30px;
+  margin: 0 auto 40px auto;   
+  width: 1200px;
+  max-width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 90px;
+}
+
+.sfondo.bianco .banner.azzurro h2 {
+  font-family: 'Cinzel Decorative';
+  font-size: 35px;            
+  letter-spacing: 2px;
+  color: #4a483d;
+  margin: 0;
+}
+
+.sfondo.bianco .banner.rosa {
+  background-color: #d7c4c8; 
+  text-align: center;
+  box-sizing: border-box;
+  padding: 10px 30px;
+  margin: 0 auto;   
+  max-width: 1200px;   
+}
+
+.sfondo.bianco .banner.rosa .testo {
+  font-size: 20px;
+  font-weight: 100;
+  font-family: 'Cinzel';
+  color: #000000;
+  line-height: 1.5;
+ padding-top: 50px;
+  padding-bottom: 50px;
+  text-transform: uppercase;
+}
+
+.sfondo.bianco .banner.rosa .testo:last-child {
+  margin-bottom: 0;     
+}
+
+.main-footer {
+  width: 100%;
+  margin-top: 40px;
+}
+
+.banner.footer {
+  width: 1290px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.banner.footer img {
+ width: 1600px;
+ object-fit: cover;
+ display: block;
+ margin-left: -150px;
+ margin-top: -340px;
+}
+
+.footer.bar {
+  background-color: #a85d6d; 
+  width: 100%;
+  padding: 25px 50px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+}
+
+.footer.bar .testo {
+  color: #111111;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 550px;
+  padding: 45px 40px;
+  font-size: 22px;
+  letter-spacing: 2px;
+}
+
+@media(max-width:40em) {
+ .top-bar {
+    background-color: #a85d6d;
+    color: #111111;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 25px 0px;
+    letter-spacing: 0px;
+ }
+
+ .top-bar .nome {
+    font-family: 'Cinzel';
+    font-size: 12px;
+    font-weight: 300;
+    color: #111111;
+    margin-left: 20px;
+    text-align: left;
+ }
+
+ .top-bar .data {
+   font-family: 'Cinzel'; 
+   font-size: 12px;
+   font-weight: 300;
+    color: #111111;
+    margin-right: 20px;
+    text-align: right;
+ }
+
+ .immagine.banner img {
+   width: 100%;
+   object-fit: cover;
+   display: block;
+ }
+
+ .cielo-sopra img{
+    height: 160px;
+ }
+
+ .cielo-sotto img {
+    height: 90px;
+ }
+
+ .main.header {
+    background-color: #ffffff;
+    font-family: 'Cinzel Decorative';
+    text-align: left;
+    padding: 1px 30px;
+    width: 100%;
+ }
+
+ .main.header h1 {
+    font-size: 30px;
+    color: #4a483d;
+    font-weight: 800;
+    letter-spacing: 0px;
+    
+ }
+
+ .container {
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding: 120px 20px;
+ }
+
+ .banner.blu {
+    background-color: #cfe1f1;
+    width: max-content;
+    padding: 10px 50px;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+ }
+
+ .banner.blu .sottotitolo {
+    font-size: 16px;
+    font-family: 'Cinzel';
+    color: #000000;
+    font-weight: 100;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    white-space: normal;
+    letter-spacing: 1px;
+    padding-top: 0;
+    line-height: 1.5;
+ }
+
+ .banner.blu .didascalia {
+    font-size: 11px;
+    font-weight: 100;
+    font-family: 'Cinzel';
+    color: #000000;
+    line-height: 2;
+    padding-bottom: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+ }
+
+ .sfondo-grigio {
+   background-color: #e8e8e8;
+   width: 100%;               
+   min-height: 970px;         
+   padding: 50px 0px;        
+   box-sizing: border-box;
+ }
+
+  .banner-rosa {
+   background-color: #d7c4c8; 
+   padding: 20px 30px;
+   margin-bottom: 30px;
+   margin: 0 auto 40px auto;   
+   width: 450px;
+   box-sizing: border-box;
+ }
+
+ .banner-rosa h2 {
+   font-family: 'Cinzel Decorative';
+   font-size: 23px;            
+   letter-spacing: 2px;
+   color: #4a483d;
+   margin: 0;
+   width: 450px;
+   white-space: normal;
+   margin-left: -20px;
+ }
+
+ .testo-articolo {
+   width: 450px;
+   padding-left: 65px;
+   margin: 0 auto 50px auto;
+   box-sizing: border-box; 
+ }
+
+ .testo-articolo p {
+   font-family: 'Alan Sans';  
+   font-weight: 520;
+   font-size: 17px;            
+   line-height: 20px;          
+   color: #000000;
+   width: 450px;
+   margin: 0;
+   margin-bottom: 160px;
+   margin-left: -62px;
+ }
+
+ .immagini-1 {
+    display: flex;
+    max-width: 1000px;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 60px;
+    margin-top: -80px;
+ }
+
+ .immagini-1 img {
+    height: 270px;     
+    object-fit: cover; 
+    display: block;
+    white-space: normal;
+    
+ }
+
+ .sfondo.bianco {
+   background-color: #ffffff;
+   width: 100%;               
+   min-height: 970px;         
+   padding: 50px 0px;        
+   box-sizing: border-box;
+ }
+
+ .banner.azzurro {
+   background-color: #d7c4c8; 
+   padding: 20px 40px;
+   margin-bottom: 30px;
+   margin: 0 auto 40px auto;   
+   width: 450px;
+   box-sizing: border-box;
+ }
+
+ .banner.azzurro h2 {
+   font-family: 'Cinzel Decorative';
+   font-size: 23px;            
+   letter-spacing: 1px;
+   color: #4a483d;
+   margin: 0;
+   width: 450px;
+   white-space: normal;
+   margin-left: -40px;
+ }
+
+ .gruppo-immagini {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 150px;
+    margin-top: 70px;
+    width: 450px;
+    min-height: 200px;
+    margin-left: -40px;
+    flex-wrap: wrap;
+ }
+
+ .coppia-sinistra,
+ .coppia-destra {
+    display: flex;
+    gap: 0; 
+ }
+
+ .gruppo-immagini img {
+    width: 213px;
+    height: 198px;
+    object-fit: cover; 
+    display: block;
+ }
+
+ .contenuto-testo {
+    max-width: 800px;
+    margin: 0 auto;
+   margin-top: -100px;
+   margin-bottom: 50px;
+ }
+
+ .contenuto-testo .testo {
+    font-family: 'Alan Sans';
+    color: #2c2c2c;
+    line-height: 26px;
+    font-weight: 520;
+    font-size: 17px;            
+    line-height: 20px;  
+ }
+
+ .sfondo.grigio {
+   background-color: #e8e8e8; 
+   width: 100%;               
+   min-height: 970px;         
+   padding: 60px 50px;        
+   box-sizing: border-box;
+   padding: 10px ;
+  }
+
+ .sfondo.grigio .banner.rosa {
+   background-color: #D7C4C8; 
+   padding: 20px 40px;
+   margin-bottom: 30px;
+   margin: 0 auto 40px auto;   
+   max-width: 450px;
+   box-sizing: border-box;
+  
+  }
+
+ .sfondo.grigio .banner.rosa h2 {
+   font-family: 'Cinzel Decorative';
+   font-size: 23px;            
+   letter-spacing: 1px;
+   color: #4a483d;
+   margin: 0;
+   width: 450px;
+   margin-left: -40px;
+ }
+
+ .sfondo.grigio .testo-articolo {
+   max-width: 800px;
+   margin: 0 auto;
+ }
+
+ .sfondo.grigio .testo-articolo p {
+    font-family: 'Alan Sans';
+    color: #2c2c2c;
+    line-height: 26px;
+    font-weight: 520;
+    font-size: 17px;            
+    line-height: 20px;  
+    margin-left: -35px;
+    max-width: 400px;
+ }
+
+ .sfondo.grigio .immagini {
+    justify-content: center;
+    align-items: center;
+    gap: 30px;               
+    margin-top: 40px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+    margin-top: -80px;
+
+ }
+
+ .sfondo.grigio .immagini img {
+    width: 380px;            
+    height: 220px;
+    object-fit: cover;       
+    display: block;
+    border-radius: 2px;
+ }
+
+ .sfondo.bianco {
+   background-color: #ffffff;
+   width: 100%;            
+   padding: 50px 50px 0 50px; 
+   box-sizing: border-box;
+ }
+
+ .sfondo.bianco .banner.azzurro {
+   background-color: #cfe1f1;
+   padding: 10px 30px;
+   margin-bottom: 30px;
+   margin: 0 auto 40px auto;   
+   max-width: 450px;
+   box-sizing: border-box;
+   margin-left: -40px;
+ }
+
+ .sfondo.bianco .banner.azzurro h2 {
+   font-family: 'Cinzel Decorative';
+   font-size: 23px;            
+   letter-spacing: 1px;
+   color: #4a483d;
+   margin: 0;
+   width: 450px;
+   white-space: normal;
+   margin-left: -20px;
+   text-align: left;
+ }
+
+ .sfondo.bianco .banner.rosa {
+   background-color: #d7c4c8; 
+    width: 450px;
+    padding: 0px 20px;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;  
+    margin-left: -40px;
+    margin-top: 90px;
+ }
+
+ .sfondo.bianco .banner.rosa .testo {
+    font-size: 11px;
+    font-weight: 100;
+    font-family: 'Cinzel';
+    color: #000000;
+    line-height: 2;
+    padding-bottom: 1;
+    padding-top: 1;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    white-space: normal;
+  }
+
+ .main-footer {
+   width: 100%;
+   margin-top: 110px;
+ }
+
+ .banner.footer {
+   width: 150px;
+   max-width: 100%;
+   margin: 0 auto;
+ }
+
+ .banner.footer img {
+   width: 490px;
+   height: 150px;
+   object-fit: cover;
+   display: block;
+   margin-left: -160px;
+   margin-top: -360px;
+ }
+
+ .footer.bar {
+   background-color: #a85d6d;
+   color: #111111;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 550px;
+    padding: 25px 0px;
+    letter-spacing: 0px;
+    margin-left: -15px;
+ }
+
+ .footer.bar .testo {
+    color: #111111;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 450px;
+    padding: 10px 40px;
+    font-size: 12px;
+    letter-spacing: 2px;
+ } 
+
+ }
